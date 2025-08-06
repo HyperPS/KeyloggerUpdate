@@ -64,6 +64,7 @@ const std::string CHAT_ID_PLAINTEXT = "REPLACE_WITH_YOUR_CHAT_ID";
 
 ---
 🔁 Steps:
+
 1.Create a bot via @BotFather on Telegram.
 2.Start a chat with your bot.
 3.Visit or search @userinfobot >to get chat-id
@@ -71,6 +72,7 @@ const std::string CHAT_ID_PLAINTEXT = "REPLACE_WITH_YOUR_CHAT_ID";
 5.Recompile the binary.
 
 🧪 Runtime Behavior
+
 Sends "target online" notification to your Telegram bot.
 Shares:
 Victim's GUID
@@ -81,6 +83,7 @@ Hides the console window on launch.
 Self-terminates if any debugger is detected.
 
 🔍 Legal Disclaimer
+
 This project is created for the following use cases:
 🔬 Malware reverse engineering practice
 🛡️ Cybersecurity education
@@ -89,6 +92,7 @@ Do not deploy on systems you do not own or without consent.
 The developer assumes no responsibility for any misuse.
 
 📌 Additional Notes
+
 ❌ No use of WinINet, Boost, or cURL.
 ✅ Fully written in pure C++17 using low-level Windows API.
 🔧 Can be extended with:
